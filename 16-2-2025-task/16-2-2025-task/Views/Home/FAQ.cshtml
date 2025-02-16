@@ -1,0 +1,250 @@
+﻿
+@{
+    ViewData["Title"] = "FAQ";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FQA-Career Compass</title>
+  
+    <style>
+        body {
+            overflow-x: hidden;
+        }
+
+        .hero {
+            width: 100vw;
+            height: 15vw;
+            background-color: rgba(128, 129, 198, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        h1 {
+            color: #6273C3;
+        }
+
+        h2 {
+            color: #2F1893;
+        }
+
+        h1 {
+            font-size: 3vw;
+            animation: textGlow 2s infinite alternate;
+        }
+
+       
+
+        h3,
+        p {
+            color: #6273C3;
+            text-align: center;
+            font-size: 1.2vw;
+            font-family: Arial, sans-serif;
+        }
+
+        .img {
+            width: 50vw;
+            height: 30vw;
+            box-shadow: 0.1vw 0.1vw 2vw #ECDFCF;
+            transform: scale(0.9);
+            transition: transform 0.3s ease-in-out;
+        }
+
+            .img:hover {
+                transform: scale(1);
+            }
+
+        .highlighted-text {
+            color: #2F1893;
+        }
+
+            .highlighted-text span {
+                color: #6273C3;
+            }
+
+        .f1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 2vw;
+        }
+
+        h3 {
+            color: #6273C3;
+            text-align: center;
+            font-size: 1.7vw;
+            font-family: Arial, sans-serif;
+        }
+
+        .faq-section {
+            padding: 30px;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .faq h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #6273C3;
+            text-align: center;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+            border: 1px solid #d6d6d6;
+            border-radius: 8px;
+        }
+
+        .faq-question {
+            background-color: #6273C3;
+            color: white;
+            padding: 15px;
+            width: 100%;
+            text-align: left;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+            .faq-question:hover {
+                background-color: #4a59a4;
+            }
+
+        .faq-answer {
+            padding: 15px;
+            display: none;
+            margin-top: 5px;
+            font-size: 16px;
+            background-color: #eef2f9;
+            border-top: 1px solid #d6d6d6;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .faq-question:focus + .faq-answer,
+        .faq-item.active .faq-answer {
+            display: block;
+        }
+
+        .faq-item.active .faq-question {
+            background-color: #4a59a4;
+            color: white;
+        }
+
+        .faq-item .faq-question::after {
+            content: " ▼";
+            font-size: 18px;
+            float: right;
+            margin-right: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .faq-item.active .faq-question::after {
+            content: " ▲";
+            transform: rotate(180deg);
+        }
+
+        p {
+            color: #9F9FB0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="hero">
+        <div>
+            <h1>
+                <span class="highlighted-text">F</span>requently
+                <span class="highlighted-text">A</span>sked
+                <span class="highlighted-text">Q</span>uestion
+            </h1>
+        </div>
+    </section>
+
+    <section class="row">
+        <div class="f1 col-6">
+            <h3>Here you will find answers to your questions</h3>
+
+        </div>
+        <div class="f2 col-6">
+            <img class="img" src="/img/fqa.jpg">
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq">
+            <div class="faq-item">
+                <button class="faq-question">What is Career Compass?</button>
+                <div class="faq-answer">
+                    <p>Career Compass is an online platform designed to help students and professionals find the right career path based on their interests, skills, and aspirations. It also provides guidance for academic specialization selection.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How do I get started?</button>
+                <div class="faq-answer">
+                    <p>To get started, simply create an account, complete the career assessment quiz, and receive tailored career advice and expert consultations.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is there a cost to use Career Compass?</button>
+                <div class="faq-answer">
+                    <p>No, Career Compass is free to use for all students and professionals who wish to explore career options and receive personalized guidance.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How accurate is the career assessment quiz?</button>
+                <div class="faq-answer">
+                    <p>The career assessment quiz is designed using scientifically-backed models to match your interests and skills with potential career paths. However, it's a helpful tool for exploration, and the results can vary based on individual preferences and experiences.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I get personalized career advice?</button>
+                <div class="faq-answer">
+                    <p>Yes! After completing the career quiz, you can book a consultation with one of our experts for personalized advice on career paths, academic specializations, and more.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Do you offer support for career changes?</button>
+                <div class="faq-answer">
+                    <p>Absolutely! Career Compass also provides guidance for individuals considering a career shift, helping you navigate the process based on your current skills and future aspirations.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Can I get advice on university specialization?</button>
+                <div class="faq-answer">
+                    <p>Yes! Career Compass helps guide students in choosing the right academic specialization by providing insights into the most suitable fields based on their interests, abilities, and career goals.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">How can I stay updated with new features?</button>
+                <div class="faq-answer">
+                    <p>By subscribing to our newsletter or following our social media channels, you can stay updated with new features, career tips, and exclusive content offered by Career Compass.</p>
+                </div>
+            </div>
+            <div class="faq-item">
+                <button class="faq-question">Is my data safe on Career Compass?</button>
+                <div class="faq-answer">
+                    <p>Yes, your privacy is important to us. Career Compass employs secure encryption methods and privacy policies to ensure your personal data is kept safe and confidential.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
+

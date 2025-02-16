@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewData["Title"] = "register";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+  
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, color-mix(in srgb, #2F1893, transparent 40%), color-mix(in srgb, #2F1893, transparent 40%)), url("/img/hero-bg.jpg");
+            background-size: contain;
+            /* display: flex; */
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .error-message {
+            color: red;
+        }
+
+        form {
+            background-color: white;
+            padding: 2vw;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 40vw;
+            height: fit-content;
+        }
+
+        
+
+        #registerForm h2 {
+            color: #2F1893;
+        }
+
+        form input[type="text"],
+        form input[type="password"] {
+            width: 35vw;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form a {
+            /* display: block; */
+            margin: 10px 0;
+            color: #5774EA;
+            text-decoration: none;
+        }
+
+        form a:hover {
+            text-decoration: underline;
+        }
+
+        form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #5774EA;
+            color: white;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #2F1893;
+        }
+
+    </style>
+  
+</head>
+
+<body>
+
+        <form id="registerForm">
+            <h2>Register</h2>
+            <input type="text" id="firstName" placeholder="First Name" oninput="ValidateFN()" required>
+            <span id="Rfname" class="error-message"></span>
+
+            <input type="text" id="lastName" placeholder="Last Name" oninput="ValidateLN()" required>
+            <span id="Rlname" class="error-message"></span>
+
+            <input type="text" id="email" placeholder="Email" oninput="ValidateE()" required>
+            <span id="Remail" class="error-message"></span>
+
+            <input type="password" id="password" placeholder="Password" oninput="ValidateP()" required>
+            <span id="Rpassword" class="error-message"></span>
+
+            <input type="password" id="repeatPassword" placeholder="Repeat Password" oninput="ValidateCP()" required>
+            <span id="Rcpassword" class="error-message"></span><br>
+            <a>Already Have Account? </a>
+            <a href="login.html"> Login </a><br><br>
+            <button type="submit" onclick="GoToLogin()">Register</button>
+        </form>
+
+</body>
+
+</html>

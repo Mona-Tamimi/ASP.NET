@@ -1,0 +1,219 @@
+﻿
+@{
+    ViewData["Title"] = "services";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service-Career Compass</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    nav {
+        background-color: #6273C3;
+        z-index: +100;
+        width: 100vw;
+    }
+
+    .nav-link {
+        color: #EEEEEE;
+        font-size: 1vw;
+        margin-left: 1.9vw;
+        margin-right: 1.9vw;
+    }
+
+    .logo {
+        width: 7vw;
+        height: 3vw;
+    }
+
+    .footer {
+        background-color: #6273C3;
+        color: white;
+    }
+
+    .footer a {
+        color: white;
+        text-decoration: none;
+        margin: 0 1vw;
+    }
+
+    .footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer .brand img {
+        width: 30px;
+    }
+
+    .footer .links {
+        margin: 10px 0;
+    }
+
+    .footer .social a {
+        font-size: 1vw;
+        margin: 0 0.3vw;
+        padding-left: 1.2vw;
+        /* margin-left: 2vw; */
+    }
+
+    .footimg {
+        width: 30vw !important;
+        height: 10vw;
+    }
+</style>
+    <style>
+        /* Global styles */
+        body {
+            overflow-x: hidden;
+        }
+
+        .hero {
+            width: 100vw;
+            height: 15vw;
+            background-color: rgba(128, 129, 198, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+
+        h1,
+        h2 {
+            color: #2F1893;
+        }
+
+        h1 {
+            font-size: 3vw;
+            animation: textGlow 2s infinite alternate;
+        }
+
+        h3,
+        p {
+            color: #6273C3;
+            text-align: center;
+            font-size: 1.2vw;
+            font-family: Arial, sans-serif;
+        }
+
+        .img {
+            width: 50vw;
+            height: 30vw;
+            box-shadow: 0.1vw 0.1vw 2vw #ECDFCF;
+            transform: scale(0.9);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .img:hover {
+            transform: scale(1);
+        }
+
+        button {
+            padding: 0.5vw;
+            width: 9vw;
+            color: white;
+            background-color: #5774EA;
+            border: none;
+            border-radius: 3vw;
+            box-shadow: 0.2vw 0.2vw 0.5vw #555;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+            background-color: #4158D0;
+        }
+
+        .s11,
+        .s22,
+        .s31 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 2vw;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- navbar -->
+     
+    <!-- end of navbar -->
+
+    <!-- hero section  -->
+    <section class="hero">
+        <div>
+            <h1>Our Services </h1>
+            <h3>Your Guide to Success</h3>
+        </div>
+    </section>
+    <!-- end of hero section  -->
+
+
+    <section class="service1 row" data-aos="fade-up">
+        <div class="s11 col-6">
+            <h2>Career Assessment Quiz</h2>
+            <p>Take a personalized quiz designed to analyze your skills,<br>
+                interests, and goals, helping you discover the best<br>
+                academic or career path.
+            </p>
+            <button onclick="location.href='/HTML/quiz.html'">Take the Quiz</button>
+        </div>
+        <div class="s12 col-6">
+            <img class="img" src="/img/service1.jpg">
+        </div>
+    </section>
+
+    <section class="service2 row" data-aos="fade-right">
+        <div class="s21 col-6">
+            <img class="img" src="/img/service2.jpg">
+        </div>
+        <div class="s22 col-6">
+            <h2>Expert Consultation</h2>
+            <p>Schedule one-on-one sessions with career experts to <br>
+                get tailored advice and guidance for your future.
+            </p>
+            <button onclick="location.href='/HTML/consultant.html'">Book a Session</button>
+        </div>
+    </section>
+
+    <section class="service3 row" data-aos="fade-left">
+        <div class="s31 col-6">
+            <h2>AI-Powered Career Guidance</h2>
+            <p>Let our AI analyze your inputs and provide you with <br>
+                data-driven recommendations for your academic or <br>
+                career journey.
+            </p>
+            <button onclick="location.href='/HTML/chatAI.html'">Chat with AI</button>
+        </div>
+        <div class="s32 col-6">
+            <img class="img" src="/img/service3.jpg">
+        </div>
+    </section>
+
+    <br><br><br>
+
+   
+</body>
+
+</html>
+
