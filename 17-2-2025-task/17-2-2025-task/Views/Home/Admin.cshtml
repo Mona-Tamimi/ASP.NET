@@ -1,0 +1,59 @@
+﻿
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Admin</title>
+    <style>
+        .bodyy{
+        margin-left:150px;
+        }
+    </style>
+</head>
+<body>
+    ﻿﻿@{
+      
+
+        student[] students = new student[]
+        {
+    new student{Name="mona",Age=23,Email="mona@gmail.com" },
+    new student{Name="nada",Age=22,Email="nada@gmail.com" },
+    new student{Name="salam",Age=25,Email="salam@gmail.com" }
+        };
+    }
+    @functions {
+        public class student
+        {
+            public string Name { get; set; }
+            public int Age { get; set; }
+            public string Email { get; set; }
+        }
+    }
+    <div class="bodyy">
+        <h1> Users Lists</h1>
+
+        <table class="table">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Username</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">Email</th>
+                </tr>
+            </thead>
+                <tbody>
+                @foreach (var s in students)
+                {
+                    <tr>
+                        <th>@s.Name</th>
+                        <td>@s.Age</td>
+                        <td>@s.Email</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

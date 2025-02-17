@@ -1,0 +1,33 @@
+﻿@{
+    // Layout=null;
+    ViewData["Title"] = "Home Page";
+}
+
+
+@{
+    string[] imgs = { "https://i.pinimg.com/736x/41/30/cc/4130cc693cc663be68069a9a9caa0ef0.jpg", "https://i.pinimg.com/736x/41/30/cc/4130cc693cc663be68069a9a9caa0ef0.jpg", "https://i.pinimg.com/736x/41/30/cc/4130cc693cc663be68069a9a9caa0ef0.jpg" };
+    string[] des = { "Apartment with Amazing Park View", "Apartment with Amazing Park View", "Apartment with Amazing Park View" };
+    decimal[] price = { 10.99m, 15.50m, 7.25m };
+}
+
+<center>
+    <h1 class="display-4" style="font-weight:700; font-size:40px;">Extraordinary rooms with elegant, yet a rustic atmosphere</h1>
+    <br />
+    <div class="container">
+        <div class="row">
+            @for (int i = 0; i < imgs.Length; i++)
+            {
+                <div class="col-md-4 d-flex">
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="@imgs[i]" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">@des[i]</h5>
+                            <p class="card-text" style="color: red;">$@price[i].ToString("F2")</p>
+                            <a href="#" style="color:black">View</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</center>
