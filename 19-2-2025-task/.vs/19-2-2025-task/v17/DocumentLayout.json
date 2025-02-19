@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\user\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\user\\profile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\user\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|c:\\users\\orange\\desktop\\asp.net\\19-2-2025-task\\19-2-2025-task\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7456246F-1B2D-4D3A-AF72-E202F59503BE}|19-2-2025-task\\19-2-2025-task.csproj|solutionrelative:19-2-2025-task\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "19-2-2025-task\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T19:37:48.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\User\\Login.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\User\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\User\\Login.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\User\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:30:34.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "19-2-2025-task\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:19:34.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Controllers\\UserController.cs",
+              "RelativeToolTip": "19-2-2025-task\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvy0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:19:29.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:23:35.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\User\\Register.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\User\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\User\\Register.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\User\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:22:32.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Profile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\User\\Profile.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\User\\Profile.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:31:43.878Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T16:29:01.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T19:36:59.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Program.cs",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Program.cs",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Program.cs",
+              "RelativeToolTip": "19-2-2025-task\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T16:34:21.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T19:23:39.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "19-2-2025-task\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "19-2-2025-task\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-19T19:30:21.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "19-2-2025-task\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "19-2-2025-task\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T19:08:51.907Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
