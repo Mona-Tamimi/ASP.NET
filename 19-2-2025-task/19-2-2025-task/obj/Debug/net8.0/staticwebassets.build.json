@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p2DxUTvj4N77JXRV5ZikRLRuFcQnSEwk4XrcNL1zTEA=",
+  "Hash": "uJcuaKt7oMHJRoCLMO0zoyQ7DH+hgQ4ktB4MkCzmlu8=",
   "Source": "19-2-2025-task",
   "BasePath": "_content/19-2-2025-task",
   "Mode": "Default",
@@ -57,6 +57,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\19-2-2025-task.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\login.css",
+      "SourceId": "19-2-2025-task",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\",
+      "BasePath": "_content/19-2-2025-task",
+      "RelativePath": "css/login#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ffunjeqglu",
+      "Integrity": "NXvak6OgFhruTvauWSkB/rjk2PPYvL1+cv4Jqt0Csw4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\login.css"
+    },
+    {
+      "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\profile.css",
+      "SourceId": "19-2-2025-task",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\",
+      "BasePath": "_content/19-2-2025-task",
+      "RelativePath": "css/profile#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p9frnqvm3d",
+      "Integrity": "DRX5uTFdaV9ALzWAy8LcmT67xsog1qYT1NlLNb7gMI0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
       "Identity": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\site.css",
@@ -1481,6 +1523,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-iMrlWQzuxej1gdicSwRxE1QlmOyc0CIydYqeV9S1yNw="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXvak6OgFhruTvauWSkB/rjk2PPYvL1+cv4Jqt0Csw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 06:49:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXvak6OgFhruTvauWSkB/rjk2PPYvL1+cv4Jqt0Csw4="
+        }
+      ]
+    },
+    {
+      "Route": "css/login.ffunjeqglu.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\login.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NXvak6OgFhruTvauWSkB/rjk2PPYvL1+cv4Jqt0Csw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 06:49:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ffunjeqglu"
+        },
+        {
+          "Name": "label",
+          "Value": "css/login.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NXvak6OgFhruTvauWSkB/rjk2PPYvL1+cv4Jqt0Csw4="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRX5uTFdaV9ALzWAy8LcmT67xsog1qYT1NlLNb7gMI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 06:49:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRX5uTFdaV9ALzWAy8LcmT67xsog1qYT1NlLNb7gMI0="
+        }
+      ]
+    },
+    {
+      "Route": "css/profile.p9frnqvm3d.css",
+      "AssetFile": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\profile.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "984"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DRX5uTFdaV9ALzWAy8LcmT67xsog1qYT1NlLNb7gMI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 20 Feb 2025 06:49:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p9frnqvm3d"
+        },
+        {
+          "Name": "label",
+          "Value": "css/profile.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DRX5uTFdaV9ALzWAy8LcmT67xsog1qYT1NlLNb7gMI0="
         }
       ]
     },

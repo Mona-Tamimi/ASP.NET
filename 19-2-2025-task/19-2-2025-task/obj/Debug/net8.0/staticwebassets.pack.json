@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\19-2-2025-task.klbn36yrwn.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
       "Id": "C:\\Users\\Orange\\Desktop\\ASP.NET\\19-2-2025-task\\19-2-2025-task\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    @* @Url.Action("ActionName", "ControllerName", new { parameters }) *@
+
+
+	<a href="@Url.Action("Calculate", "Home")">Go to Calculater</a>
+	@* ---> <a href="/Home/Calculate">Go to Calculater</a> *@
+
+
+    <a href="@Url.Action("Index", "Home",  new { id = 5 })">Go to Home</a>
+    @*  ---> <a href="/Home/Index/5">Go to Home</a> *@
+
+    
+   
+
+    <h2>Session and Cookies Example</h2>
+
+    <!-- Session Management -->
+    <h3>Session Management</h3>
+    <button onclick="location.href='/Session/SetSession'" class="btn btn-success">Set Session</button>
+    <button onclick="location.href='/Session/GetSession'" class="btn btn-info">Get Session</button>
+    <button onclick="location.href='/Session/RemoveSession'" class="btn btn-danger">Remove Session</button>
+    <button onclick="location.href='/Session/ClearSession'" class="btn btn-danger">Clear All Sessions</button>
+
+
+    <hr>
+
+    <!-- Cookie Management -->
+    <h3>Cookie Management</h3>
+    <button onclick="location.href='/Cookies/SetCookie'" class="btn btn-success">Set Cookie</button>
+    <button onclick="location.href='/Cookies/GetCookie'" class="btn btn-info">Get Cookie</button>
+    <button onclick="location.href='/Cookies/RemoveCookie'" class="btn btn-danger">Remove Cookie</button>
+    <button onclick="location.href='/Cookies/ClearCookies'" class="btn btn-danger">Clear All Cookies</button>
+
+
+   
+
+</div>

@@ -9,40 +9,51 @@ namespace _19_2_2025_task.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult ProcessRegister(string name, string email, string password, string confirmPassword)
+        public IActionResult SaveUserData(string name, string email, string password, string Rpassword)
         {
-            if (!string.IsNullOrEmpty(name) && !string.IsNullOrEmpty(email) && password == confirmPassword)
+            if (string.IsNullOrEmpty(name) || string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password) || string.IsNullOrEmpty(Rpassword))
             {
-                HttpContext.Session.SetString("UserName", name);
-                HttpContext.Session.SetString("UserEmail", email);
-                HttpContext.Session.SetString("UserPassword", password);
-                return RedirectToAction("Login");
+                ViewData["ErrorMesage"] = "All fields are required!";
+                return View("Register");
             }
-            return View();
-        }
+            if (password != Rpassword)
+            {
+                ViewData["ErrorMesage"] = "Passwords do not match!";
+                return View("Register");
+            }
+            HttpContext.Session.SetString("name", name);
+            HttpContext.Session.SetString("email", email);
+            HttpContext.Session.SetString("password", password);
 
+            TempData["name"] = name;
+            TempData["email"] = email;
+            return RedirectToAction("Login");
+        }
         public IActionResult Login()
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult ProcessLogin(string email, string password)
+        public IActionResult CheckData(string email, string password)
         {
-            if (HttpContext.Session.GetString("UserEmail") == email && HttpContext.Session.GetString("UserPassword") == password)
+            var storedEmail = HttpContext.Session.GetString("email");
+            var storedPassword = HttpContext.Session.GetString("password");
+
+            if (storedEmail == email && storedPassword == password)
+            {
                 return RedirectToAction("Index", "Home");
-            ViewBag.Error = "Invalid credentials";
-            return View();
+            }
+            else
+            {
+                ViewData["ErrorMesage"] = "Invalid email or password";
+                return View("Login");
+            }
         }
-
-
         public IActionResult Profile()
         {
-            if (string.IsNullOrEmpty(HttpContext.Session.GetString("UserEmail")))
-                return RedirectToAction("Login");
-            ViewBag.Name = HttpContext.Session.GetString("UserName");
-            ViewBag.Email = HttpContext.Session.GetString("UserEmail");
             return View();
         }
+
     }
 }

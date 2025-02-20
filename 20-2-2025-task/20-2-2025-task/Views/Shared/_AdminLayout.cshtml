@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - _17_2_2025_task</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/_17_2_2025_task.styles.css" asp-append-version="true" />
+    <style>
+        .wrapper {
+            display: flex;
+            min-height: 100vh; /* Make the wrapper cover the full viewport height */
+        }
+
+        .sidebar {
+            width: 250px; /* Adjust sidebar width */
+            min-height: 95vh; /* Make it extend to full height */
+            position: fixed;
+            top: 3.5vw;
+            left: 0;
+            overflow-y: auto; /* Enable scrolling if content is long */
+        }
+
+        .main-content {
+            margin-left: 250px; /* Ensure main content does not overlap the sidebar */
+            flex-grow: 1; /* Allow main content to take up remaining space */
+        }
+
+        footer {
+            margin-top: 30vw;
+            padding-left: 30vw;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-black border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Index">Admin Dashboard</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar sidebar-dark border-end bg-black">
+        <div class="sidebar-header border-bottom">
+            <div class="sidebar-brand">CoreUI</div>
+        </div>
+        <ul class="sidebar-nav">
+            <li class="nav-title text-white">Admin Menu</li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="#">
+                    <i class="nav-icon cil-speedometer"></i> Dashboard
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="#">
+                    <i class="nav-icon cil-speedometer"></i> Users
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="#">
+                    <i class="nav-icon cil-speedometer"></i> Settings
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" href="#">
+                    <i class="nav-icon cil-speedometer"></i> Logout
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer align-content-md-center text-white bg-dark">
+        <div class="container">
+            &copy; 2025 - Admin Dashboard - All Rights Reserved
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
