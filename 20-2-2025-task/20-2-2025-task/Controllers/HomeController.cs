@@ -15,6 +15,8 @@ namespace _20_2_2025_task.Controllers
 
         public IActionResult Index()
         {
+            var data = Request.Cookies["userInfo"];
+            TempData["data"] = data;
             return View();
         }
 
@@ -22,9 +24,15 @@ namespace _20_2_2025_task.Controllers
         {
             return View();
         }
-        public IActionResult Admin()
+
+        public IActionResult Logout()
         {
-            return View();
+            foreach (var cookie in Request.Cookies.Keys)
+            {
+                Response.Cookies.Delete(cookie);
+            }
+
+            return RedirectToAction("Index", "Home");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
