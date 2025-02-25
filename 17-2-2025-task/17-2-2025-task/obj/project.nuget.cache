@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lii7qVFio0Y=",
+  "dgSpecHash": "ybm4VeJkJTM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Orange\\Desktop\\asp\\17-2-2025-task\\17-2-2025-task\\17-2-2025-task.csproj",
+  "projectFilePath": "C:\\Users\\Orange\\Desktop\\ASP.NET\\17-2-2025-task\\17-2-2025-task\\17-2-2025-task.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Orange\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Orange\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

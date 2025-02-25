@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Task_4</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Task_4.styles.css" asp-append-version="true" />
+    @RenderSection("Style", required: false)
+</head>
+<body>
+    <header class ="border-top navbar text-muted">
+            <div class="container">
+            <h5>Admin Dashboard</h5>
+            </div>
+    </header>
+
+    <div class="sidebar sidebar-dark border-end">
+        <ul class="sidebar-nav" style="list-style-type:none">
+            <li class="nav-title text-white"><h6>Admin Menu </h6> </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" asp-controller="Admin" asp-action="Dashboard">
+                    <i class="nav-icon cil-speedometer"></i> Dashboard
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" asp-controller="Admin" asp-action="User">
+                    <i class="nav-icon cil-speedometer"></i> Users
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" asp-controller="Admin" asp-action="Product">
+                    <i class="nav-icon cil-speedometer"></i> Product
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active text-white" asp-controller="User" asp-action="Login">
+                    <i class="nav-icon cil-speedometer" ></i> Logout
+                </a>
+            </li>
+        </ul>
+
+    </div>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            ©2025 Admin Dashboard | All Rights Reserved
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

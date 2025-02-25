@@ -66,8 +66,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -78,8 +82,7 @@
               "RelativeToolTip": "20-2-2025-task\\Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-22T21:22:28.214Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T21:22:28.214Z"
             },
             {
               "$type": "Document",
@@ -91,8 +94,7 @@
               "RelativeToolTip": "20-2-2025-task\\Views\\Home\\Admin.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T13:45:44.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:45:44.456Z"
             },
             {
               "$type": "Document",
@@ -104,8 +106,7 @@
               "RelativeToolTip": "20-2-2025-task\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T13:36:34.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:36:34.919Z"
             },
             {
               "$type": "Document",
@@ -113,9 +114,9 @@
               "Title": "Profile.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\20-2-2025-task\\20-2-2025-task\\Views\\User\\Profile.cshtml",
               "RelativeDocumentMoniker": "20-2-2025-task\\Views\\User\\Profile.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\20-2-2025-task\\20-2-2025-task\\Views\\User\\Profile.cshtml*",
-              "RelativeToolTip": "20-2-2025-task\\Views\\User\\Profile.cshtml*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\20-2-2025-task\\20-2-2025-task\\Views\\User\\Profile.cshtml",
+              "RelativeToolTip": "20-2-2025-task\\Views\\User\\Profile.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T13:35:19.286Z",
               "EditorCaption": ""
@@ -130,8 +131,7 @@
               "RelativeToolTip": "20-2-2025-task\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:31:28.438Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:31:28.438Z"
             },
             {
               "$type": "Document",
@@ -143,8 +143,7 @@
               "RelativeToolTip": "20-2-2025-task\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:29:36.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:29:36.651Z"
             },
             {
               "$type": "Document",
@@ -156,8 +155,7 @@
               "RelativeToolTip": "20-2-2025-task\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T13:28:06.477Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:28:06.477Z"
             },
             {
               "$type": "Document",
@@ -169,8 +167,7 @@
               "RelativeToolTip": "20-2-2025-task\\Program.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAIwCUAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-20T13:39:54.346Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:39:54.346Z"
             },
             {
               "$type": "Document",
@@ -194,8 +191,7 @@
               "RelativeToolTip": "20-2-2025-task\\Views\\User\\Sign_up.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T13:32:03.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:32:03.528Z"
             },
             {
               "$type": "Document",
@@ -219,8 +215,7 @@
               "RelativeToolTip": "20-2-2025-task\\Views\\User\\Login.cshtml",
               "ViewState": "AgIAADUAAAAAAAAAAAAIwFkAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-20T13:34:13.076Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-20T13:34:13.076Z"
             },
             {
               "$type": "Document",
@@ -245,10 +240,6 @@
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-20T13:50:50.764Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

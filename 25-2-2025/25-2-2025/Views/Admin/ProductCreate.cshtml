@@ -1,0 +1,71 @@
+﻿@model _25_2_2025.Models.Product
+@{
+    ViewData["Title"] = "Create";
+    Layout = "_AdminLayout";
+}
+<div style="margin:75px 170px 20px 170px;">
+<h4>Create Product</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        @* <form asp-action="Create">
+            <!-- No need to specify method="post" because, by default, forms use the POST method when submitting data -->
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" type="number" step="0.01" class="form-control" />
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <textarea asp-for="Description" class="form-control"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" class="form-control" />
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Create Product" class="btn btn-primary" />
+                <input type="button" value="Back to List" onclick="location.href='@Url.Action("Index", "Product")'" class="btn btn-warning" />
+            </div>
+        </form> *@
+
+            <form asp-action="ProductCreate">
+            <!-- No need to specify method="post" because, by default, forms use the POST method when submitting data -->
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label" })
+                @Html.TextBoxFor(model => model.Name, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Price, htmlAttributes: new { @class = "control-label" })
+                @Html.TextBoxFor(model => model.Price, new { type = "number", step = "0.01", @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "control-label" })
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "control-label" })
+                @Html.TextBoxFor(model => model.Image, new { @class = "form-control" })
+            </div>
+
+            <div class="form-group mt-3">
+                <input type="submit" value="Create Product" class="btn btn-primary" />
+                <!-- <button type="submit" class="btn btn-primary">Create Product</button> -->
+                    @Html.ActionLink("Back to List", "Product", "Admin", null, new { @class = "btn btn-warning" })
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+

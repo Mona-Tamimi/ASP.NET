@@ -1,0 +1,44 @@
+﻿@model List<_25_2_2025.Models.Product>
+@{
+    ViewData["Title"] = "Read";
+    Layout = "_AdminLayout";
+}
+<div style="margin:75px 170px 20px 170px;">
+<div class="text-center">
+    <h1>Product Page</h1>
+</div>
+    <p>
+        <a asp-action="ProductCreate" class="btn btn-primary">Create New</a>
+    </p>
+<div class="row">
+@* @foreach (var product in Model)
+{
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src=@Url.Content(product.Image) alt="Card image cap">
+        <div class="card-body">
+                <h5 class="card-name">@product.Name</h5>
+                <p class="card-text">@product.Description</p>
+                <p class="card-price"><strong>Price: </strong>@product.Price</p>
+                <a asp-action="Details" asp-route-id="@product.Id" class="btn btn-primary">View Details</a>
+                <a asp-action="Edit" asp-route-id="@product.Id" class="btn btn-warning">Edit</a>
+                <a asp-action="Delete" asp-route-id="@product.Id" class="btn btn-danger">Delete</a>
+        </div>
+    </div>
+} *@
+
+    @foreach (var product in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@Url.Content(product.Image)" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-name">@Html.DisplayFor(model => product.Name)</h5>
+                <p class="card-text">@Html.DisplayFor(model => product.Description)</p>
+                <p class="card-price"><strong>Price: </strong>@Html.DisplayFor(model => product.Price)</p>
+                    @Html.ActionLink("View Details", "ProductDetails", new { id = product.Id }, new { @class = "btn btn-primary" })
+                    @Html.ActionLink("Edit", "ProductEdit", new { id = product.Id }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Delete", "ProductDelete", new { id = product.Id }, new { @class = "btn btn-danger" })
+            </div>
+        </div>
+    }
+</div>
+</div>

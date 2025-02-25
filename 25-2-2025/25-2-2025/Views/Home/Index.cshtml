@@ -1,0 +1,28 @@
+﻿@model IEnumerable<_25_2_2025.Models.Product>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome @Context.Session.GetString("UserName")</h1>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+</div>
+<h1>Product</h1>
+<div class="row">
+   
+    @foreach (var product in Model)
+    {
+        <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="@Url.Content(product.Image)" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-name">@Html.DisplayFor(model => product.Name)</h5>
+                <p class="card-text">@Html.DisplayFor(model => product.Description)</p>
+                <p class="card-price"><strong>Price: </strong>@Html.DisplayFor(model => product.Price)</p>
+                @Html.ActionLink("View Details", "Details", "Product", new { id = product.Id }, new { @class = "btn btn-primary" })
+            </div>
+        </div>
+    }
+</div>

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|solutionrelative:23-2-2025\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|solutionrelative:23-2-2025\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|solutionrelative:23-2-2025\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|solutionrelative:23-2-2025\\models\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|solutionrelative:23-2-2025\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|solutionrelative:23-2-2025\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C0C9AFE-D776-4918-8B33-5B39A0FB2FE1}|23-2-2025\\23-2-2025.csproj|c:\\users\\orange\\desktop\\asp.net\\23-2-2025\\23-2-2025\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,37 +58,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "23-2-2025\\Views\\Department\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Create.cshtml*",
-              "RelativeToolTip": "23-2-2025\\Views\\Department\\Create.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T18:19:12.226Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "23-2-2025\\Views\\Department\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "23-2-2025\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-23T18:19:12.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Index.cshtml",
               "RelativeDocumentMoniker": "23-2-2025\\Views\\Department\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Index.cshtml",
-              "RelativeToolTip": "23-2-2025\\Views\\Department\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Views\\Department\\Index.cshtml*",
+              "RelativeToolTip": "23-2-2025\\Views\\Department\\Index.cshtml*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-23T18:18:18.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Models\\Department.cs",
               "RelativeDocumentMoniker": "23-2-2025\\Models\\Department.cs",
@@ -96,18 +99,17 @@
               "RelativeToolTip": "23-2-2025\\Models\\Department.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:15:33.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T18:15:33.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "DepartmentController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Controllers\\DepartmentController.cs",
               "RelativeDocumentMoniker": "23-2-2025\\Controllers\\DepartmentController.cs",
               "ToolTip": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Controllers\\DepartmentController.cs",
               "RelativeToolTip": "23-2-2025\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-23T18:11:55.6Z",
               "EditorCaption": ""
@@ -122,12 +124,11 @@
               "RelativeToolTip": "23-2-2025\\Controllers\\UsersController.cs",
               "ViewState": "AgIAAJgAAAAAAAAAAAAUwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:57:39.348Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T08:57:39.348Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Models\\MyDbContext.cs",
               "RelativeDocumentMoniker": "23-2-2025\\Models\\MyDbContext.cs",
@@ -140,7 +141,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "23-2-2025\\Controllers\\HomeController.cs",
@@ -148,12 +149,11 @@
               "RelativeToolTip": "23-2-2025\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T18:04:52.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T18:04:52.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Orange\\Desktop\\ASP.NET\\23-2-2025\\23-2-2025\\Program.cs",
               "RelativeDocumentMoniker": "23-2-2025\\Program.cs",
@@ -161,8 +161,7 @@
               "RelativeToolTip": "23-2-2025\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T07:32:51.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T07:32:51.871Z"
             },
             {
               "$type": "Document",
@@ -174,8 +173,7 @@
               "RelativeToolTip": "23-2-2025\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-23T07:33:56.264Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T07:33:56.264Z"
             },
             {
               "$type": "Document",
@@ -187,8 +185,7 @@
               "RelativeToolTip": "23-2-2025\\Views\\Users\\Index.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T17:53:46.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T17:53:46.592Z"
             },
             {
               "$type": "Document",
@@ -200,8 +197,7 @@
               "RelativeToolTip": "23-2-2025\\Views\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-23T09:19:21.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T09:19:21.987Z"
             },
             {
               "$type": "Document",
@@ -213,12 +209,7 @@
               "RelativeToolTip": "23-2-2025\\Models\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T08:45:48.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-02-23T08:45:48.73Z"
             }
           ]
         }
